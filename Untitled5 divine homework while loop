@@ -1,0 +1,65 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "bd8fa5df-5615-49be-a057-406330a589f1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "counter is: 1\n",
+      "counter is: 2\n",
+      "counter is: 3\n",
+      "counter is: 4\n",
+      "counter is: 5\n",
+      "counter is: 6\n",
+      "counter is: 7\n",
+      "counter is: 8\n",
+      "counter is: 9\n",
+      "counter is: 10\n"
+     ]
+    }
+   ],
+   "source": [
+    "# initialize the counter\n",
+    "counter = 1\n",
+    "# start the while loop\n",
+    "while counter <= 10:\n",
+    "    print(\"counter is:\", counter)\n",
+    "    counter += 1 # increment the counter by 1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f706f0d2-1b04-4891-b4ee-89e2591c666a",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "anaconda-2024.02-py310",
+   "language": "python",
+   "name": "conda-env-anaconda-2024.02-py310-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.14"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
